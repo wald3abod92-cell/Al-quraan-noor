@@ -3,7 +3,6 @@ package com.alqurannoor.app
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -130,10 +129,7 @@ fun MenuCard(
                 .padding(18.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text(
-                text = emoji,
-                fontSize = 25.sp
-            )
+            Text(text = emoji, fontSize = 25.sp)
 
             Spacer(modifier = Modifier.width(18.dp))
 
